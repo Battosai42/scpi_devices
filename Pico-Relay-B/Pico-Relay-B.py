@@ -115,7 +115,6 @@ if __name__=='__main__':
             relais.parseSCPI(msg=test)
         except Exception as e:
             print(e)
-            raise(e)
 
     
         
